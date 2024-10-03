@@ -1,7 +1,6 @@
 let photos = ['images/img1.jpg','images/img2.jpg','images/img3.jpg']
 let imgtag = document.querySelector('img')
 
-
 let count = 0
 
 function next (){
@@ -13,7 +12,6 @@ function next (){
     imgtag.src = photos[count]
  }
 }
-
 function prev(){
     count--;
     if (count<0) {
